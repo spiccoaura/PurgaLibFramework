@@ -15,7 +15,7 @@ using PurgaLibFramework.PurgaLibFramework.PurgaLib.PurgaLibEvent.Events.PluginMa
 
 namespace ExamplePurgaLib
 {
-    public class Config : IPurgaConfig
+    public class Config : IConfig
     {
         public bool Enabled { get; set; } = true;
     }
@@ -39,12 +39,12 @@ namespace ExamplePurgaLib
         
         protected override void OnEnabled()
         {
-            Log.Info("Hi from Plugin PurgaLib!");
+            Logged.Info("Hi from Plugin PurgaLib!");
         }
 
         protected override void OnDisabled()
         {
-            Log.Info("Bye from Plugin PurgaLib!");
+            Logged.Info("Bye from Plugin PurgaLib!");
         }
     }
 }
