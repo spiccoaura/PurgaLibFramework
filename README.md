@@ -1,6 +1,6 @@
 ## 🛠️ Plugin Creation Tutorial
 
-Follow these steps to create a plugin using **PurgaLib Framework v0.0.1**:
+Follow these steps to create a plugin.
 
 ### 1️⃣ Add PurgaLibFramework.dll
 Include `PurgaLibFramework.dll` in your C# plugin project.
