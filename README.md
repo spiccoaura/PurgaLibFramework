@@ -121,4 +121,6 @@ for advanced SCP: SL plugin development.
 </p>
 
 
-<i>Contributing with EXILED code.</i>
+# CREDITS:
+This project got [ExMod-Team/Exiled](https://github.com/ExMod-Team/EXILED) code for Starting the project. 
+
